@@ -11,7 +11,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		E8722F072D5FE168004C2CDA /* PBXContainerItemProxy */ = {
+		E8D5E5112D5FE60D008C5536 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = E8722EA62D5FE10E004C2CDA /* Project object */;
 			proxyType = 1;
@@ -22,8 +22,7 @@
 
 /* Begin PBXFileReference section */
 		E8722EAE2D5FE10E004C2CDA /* Zoo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Zoo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		E8722F032D5FE168004C2CDA /* ZooTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZooTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E8D5E4252D5FE2BE008C5536 /* ZooTests.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = ZooTests.xctestplan; sourceTree = "<group>"; };
+		E8D5E50D2D5FE60D008C5536 /* ZooTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZooTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -32,7 +31,7 @@
 			path = Zoo;
 			sourceTree = "<group>";
 		};
-		E8722F042D5FE168004C2CDA /* ZooTests */ = {
+		E8D5E50E2D5FE60D008C5536 /* ZooTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = ZooTests;
 			sourceTree = "<group>";
@@ -48,7 +47,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E8722F002D5FE168004C2CDA /* Frameworks */ = {
+		E8D5E50A2D5FE60D008C5536 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -62,8 +61,7 @@
 			isa = PBXGroup;
 			children = (
 				E8722EB02D5FE10E004C2CDA /* Zoo */,
-				E8722F042D5FE168004C2CDA /* ZooTests */,
-				E8D5E4252D5FE2BE008C5536 /* ZooTests.xctestplan */,
+				E8D5E50E2D5FE60D008C5536 /* ZooTests */,
 				E8722EAF2D5FE10E004C2CDA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -72,7 +70,7 @@
 			isa = PBXGroup;
 			children = (
 				E8722EAE2D5FE10E004C2CDA /* Zoo.app */,
-				E8722F032D5FE168004C2CDA /* ZooTests.xctest */,
+				E8D5E50D2D5FE60D008C5536 /* ZooTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -103,27 +101,27 @@
 			productReference = E8722EAE2D5FE10E004C2CDA /* Zoo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		E8722F022D5FE168004C2CDA /* ZooTests */ = {
+		E8D5E50C2D5FE60D008C5536 /* ZooTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E8722F092D5FE168004C2CDA /* Build configuration list for PBXNativeTarget "ZooTests" */;
+			buildConfigurationList = E8D5E5132D5FE60D008C5536 /* Build configuration list for PBXNativeTarget "ZooTests" */;
 			buildPhases = (
-				E8722EFF2D5FE168004C2CDA /* Sources */,
-				E8722F002D5FE168004C2CDA /* Frameworks */,
-				E8722F012D5FE168004C2CDA /* Resources */,
+				E8D5E5092D5FE60D008C5536 /* Sources */,
+				E8D5E50A2D5FE60D008C5536 /* Frameworks */,
+				E8D5E50B2D5FE60D008C5536 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				E8722F082D5FE168004C2CDA /* PBXTargetDependency */,
+				E8D5E5122D5FE60D008C5536 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				E8722F042D5FE168004C2CDA /* ZooTests */,
+				E8D5E50E2D5FE60D008C5536 /* ZooTests */,
 			);
 			name = ZooTests;
 			packageProductDependencies = (
 			);
 			productName = ZooTests;
-			productReference = E8722F032D5FE168004C2CDA /* ZooTests.xctest */;
+			productReference = E8D5E50D2D5FE60D008C5536 /* ZooTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -139,7 +137,7 @@
 					E8722EAD2D5FE10E004C2CDA = {
 						CreatedOnToolsVersion = 16.2;
 					};
-					E8722F022D5FE168004C2CDA = {
+					E8D5E50C2D5FE60D008C5536 = {
 						CreatedOnToolsVersion = 16.2;
 						TestTargetID = E8722EAD2D5FE10E004C2CDA;
 					};
@@ -163,7 +161,7 @@
 			projectRoot = "";
 			targets = (
 				E8722EAD2D5FE10E004C2CDA /* Zoo */,
-				E8722F022D5FE168004C2CDA /* ZooTests */,
+				E8D5E50C2D5FE60D008C5536 /* ZooTests */,
 			);
 		};
 /* End PBXProject section */
@@ -176,7 +174,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E8722F012D5FE168004C2CDA /* Resources */ = {
+		E8D5E50B2D5FE60D008C5536 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -193,7 +191,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E8722EFF2D5FE168004C2CDA /* Sources */ = {
+		E8D5E5092D5FE60D008C5536 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -203,10 +201,10 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		E8722F082D5FE168004C2CDA /* PBXTargetDependency */ = {
+		E8D5E5122D5FE60D008C5536 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = E8722EAD2D5FE10E004C2CDA /* Zoo */;
-			targetProxy = E8722F072D5FE168004C2CDA /* PBXContainerItemProxy */;
+			targetProxy = E8D5E5112D5FE60D008C5536 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -390,7 +388,7 @@
 			};
 			name = Release;
 		};
-		E8722F0A2D5FE168004C2CDA /* Debug */ = {
+		E8D5E5142D5FE60D008C5536 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -409,7 +407,7 @@
 			};
 			name = Debug;
 		};
-		E8722F0B2D5FE168004C2CDA /* Release */ = {
+		E8D5E5152D5FE60D008C5536 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -449,11 +447,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E8722F092D5FE168004C2CDA /* Build configuration list for PBXNativeTarget "ZooTests" */ = {
+		E8D5E5132D5FE60D008C5536 /* Build configuration list for PBXNativeTarget "ZooTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E8722F0A2D5FE168004C2CDA /* Debug */,
-				E8722F0B2D5FE168004C2CDA /* Release */,
+				E8D5E5142D5FE60D008C5536 /* Debug */,
+				E8D5E5152D5FE60D008C5536 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

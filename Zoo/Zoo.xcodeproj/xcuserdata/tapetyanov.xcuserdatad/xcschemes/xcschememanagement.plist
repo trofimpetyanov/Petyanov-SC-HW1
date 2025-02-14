@@ -7,17 +7,12 @@
 		<key>Sample-iOS (Playground).xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>2</integer>
 		</dict>
 		<key>Zoo.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>1</integer>
-		</dict>
-		<key>ZooTests.xcscheme_^#shared#^_</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>2</integer>
+			<integer>0</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
@@ -28,6 +23,11 @@
 			<true/>
 		</dict>
 		<key>E8722F022D5FE168004C2CDA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E8D5E4E32D5FE5CC008C5536</key>
 		<dict>
 			<key>primary</key>
 			<true/>
