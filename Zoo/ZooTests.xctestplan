@@ -1,0 +1,55 @@
+{
+  "configurations" : [
+    {
+      "id" : "B3D6F8E5-1234-5678-9ABC-DEF012345678",
+      "name" : "Configuration 1",
+      "options" : {
+        "targetForVariableExpansion" : {
+          "containerPath" : "container:Zoo.xcodeproj",
+          "identifier" : "E8722F022D5FE168004C2CDA",
+          "name" : "ZooTests"
+        }
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "codeCoverage" : {
+      "targets" : [
+        {
+          "containerPath" : "container:Zoo.xcodeproj",
+          "identifier" : "E8722EAD2D5FE10E004C2CDA",
+          "name" : "Zoo"
+        }
+      ]
+    },
+    "environmentVariableEntries" : [
+      {
+        "key" : "TESTING",
+        "value" : "1"
+      }
+    ],
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:Zoo.xcodeproj",
+      "identifier" : "E8722F022D5FE168004C2CDA",
+      "name" : "ZooTests"
+    }
+  },
+  "testConfigurations" : [
+    {
+      "id" : "B3D6F8E5-1234-5678-9ABC-DEF012345678",
+      "name" : "Configuration 1",
+      "options" : {
+        "coverage" : {
+          "excludedPaths" : [
+            ".*View\\.swift",
+            ".*App\\.swift",
+            ".*/Preview Content/.*",
+            ".*/Views/.*",
+            ".*/Components/.*"
+          ]
+        }
+      }
+    }
+  ],
+  "version" : 1
+}
