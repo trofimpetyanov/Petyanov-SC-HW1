@@ -1,4 +1,5 @@
 import SwiftUI
+import ZooCore
 
 struct AnimalsView: View {
     @ObservedObject var zoo: Zoo

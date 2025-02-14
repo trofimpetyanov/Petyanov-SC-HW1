@@ -1,11 +1,12 @@
 import SwiftUI
+import ZooCore
 
 struct InventoryView: View {
     @ObservedObject var zoo: Zoo
     @State private var showingAddItemSheet = false
     
     private func getItemEmoji(_ item: Thing) -> String {
-        if item is Table {
+        if item is ZooCore.Table {
             return "🪑"
         } else if item is Computer {
             return "💻"
@@ -30,7 +31,7 @@ struct InventoryView: View {
                                     .font(.title2)
                                 VStack(alignment: .leading) {
                                     Text(item.name)
-                                    if let table = item as? Table {
+                                    if let table = item as? ZooCore.Table {
                                         Text("Тип: \(table.type)")
                                             .font(.caption)
                                             .foregroundColor(.secondary)

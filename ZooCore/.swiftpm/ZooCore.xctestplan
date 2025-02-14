@@ -1,0 +1,32 @@
+{
+  "configurations" : [
+    {
+      "id" : "E3EB747F-A788-47C3-9633-A8F0E88D4526",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "codeCoverage" : {
+      "targets" : [
+        {
+          "containerPath" : "container:",
+          "identifier" : "ZooCore",
+          "name" : "ZooCore"
+        }
+      ]
+    }
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:",
+        "identifier" : "ZooCoreTests",
+        "name" : "ZooCoreTests"
+      }
+    }
+  ],
+  "version" : 1
+}

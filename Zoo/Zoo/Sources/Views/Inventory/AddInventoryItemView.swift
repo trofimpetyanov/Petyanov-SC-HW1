@@ -1,4 +1,5 @@
 import SwiftUI
+import ZooCore
 
 struct AddInventoryItemView: View {
     @ObservedObject var zoo: Zoo

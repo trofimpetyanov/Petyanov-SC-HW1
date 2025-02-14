@@ -1,4 +1,5 @@
 import Foundation
+import ZooCore
 
 class AddAnimalViewModel: ObservableObject {
     @Published var name = ""

@@ -1,4 +1,5 @@
 import Foundation
+import ZooCore
 
 class AddInventoryItemViewModel: ObservableObject {
     @Published var name = ""

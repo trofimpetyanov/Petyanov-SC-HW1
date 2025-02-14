@@ -1,4 +1,5 @@
 import SwiftUI
+import ZooCore
 
 struct ContentView: View {
     @StateObject private var zoo: Zoo = DependencyContainer.shared.container.resolve(Zoo.self)!
